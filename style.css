@@ -1,0 +1,200 @@
+*
+{
+	padding:0;
+	margin:0;
+}
+
+body
+{
+	margin:0px;
+	padding: 0px;
+}
+.navbar
+{
+	background-color:#000
+
+}
+.nav-link:hover
+{
+	color:#fff!important;
+}
+.rotate {
+  background-color: transparent;
+  outline:3px dashed;
+  transform: rotate(1deg);
+}
+.mlogo
+{
+	font-size:25px;
+	width:50px;
+	height:50px;
+	padding:5px;
+	padding-left:10px !important	;
+	padding-right:15px !important	;
+	background:brown;
+	border-radius:50%;
+}
+.home
+{
+	//background:url(banner2.jpg);
+	background:#D7F2BA;
+	background-size:cover;
+	height:400px;
+
+/*	border-bottom-left-radius:50px;*/
+}
+.home.col-lg-6
+{
+	margin-top:150px !important	;
+}
+.hello
+{
+		border:2px solid black;
+		width:125px;
+		font-weight:bold;
+}
+
+
+.about 
+{
+	font-size:12px ;
+}
+
+.img-box
+{
+	opacity:0.7;
+	overflow:hidden;
+	display:block;
+	transition:0.5sec;
+}
+.img-box:hover img
+{
+	scale:1.1;
+	cursor:pointer	;
+}
+.img-box:hover
+{
+	opacity:0.9;
+}
+
+.btnmain
+{
+	background:#fbad1b;
+	height:50px; 
+	width:240px;
+	border-radius:50px;
+	padding:2px;
+}
+.btnin
+{
+	background:#344c36;
+	height:46px; 
+	width:180px;
+	border-radius:50px;
+}
+.shadow1
+{
+	
+box-shadow: 5px 5px 10px  gray	;
+}
+
+.skills-container {
+      max-width: 800px;
+      height: 50vh;
+      display:flex;
+      align-items: center;
+      margin: auto;
+    }
+
+    .skill {
+      margin-bottom: 20px;
+    }
+
+    .skill-name {
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .progress-bar {
+
+      background-color: black;
+      border-radius: 20px;
+      overflow: hidden;
+      
+
+    }
+
+    .progress-fill {
+      height: 100%;
+      border-radius: 15px;
+      background:gray;
+      text-align: right;
+      display:flex;
+      align-items:center;
+      justify-content:right;
+      font-weight:bold;
+      padding-right: 10px;
+      color: white;
+      font-size: 12px;
+      line-height: 20px;
+      transition: width 1s ease-in-out;
+    }
+/*    =====================================cards====================================*/
+
+.cardmain
+{
+	border:5px solid #e2e2e2;
+	background:#FFFBE0 !important	;
+
+}
+.cardmain img
+{
+	width:100%;
+}
+.sicon:hover
+{
+	color:blue !important	;
+}
+
+
+.collegeblock
+{
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:344px) and (max-width:991px)
+{
+	.home
+	{
+		background:black;
+		background-size:cover;
+		height:500px;
+		background-position-x:40%;
+	 /* border-bottom-left-radius:50px;*/
+	}
+}
